@@ -1,0 +1,100 @@
+Collecting Django==4.2.7 (from -r backend/requirements.txt (line 2))
+  Using cached Django-4.2.7-py3-none-any.whl.metadata (4.1 kB)
+Collecting djangorestframework==3.14.0 (from -r backend/requirements.txt (line 3))
+  Using cached djangorestframework-3.14.0-py3-none-any.whl.metadata (10 kB)
+Collecting django-cors-headers==4.3.1 (from -r backend/requirements.txt (line 4))
+  Using cached django_cors_headers-4.3.1-py3-none-any.whl.metadata (16 kB)
+Collecting django-celery-results==2.4.0 (from -r backend/requirements.txt (line 5))
+  Using cached django_celery_results-2.4.0-py3-none-any.whl.metadata (5.7 kB)
+Collecting django-filter==23.3 (from -r backend/requirements.txt (line 6))
+  Using cached django_filter-23.3-py3-none-any.whl.metadata (5.1 kB)
+Collecting djangorestframework-simplejwt==5.3.0 (from -r backend/requirements.txt (line 7))
+  Using cached djangorestframework_simplejwt-5.3.0-py3-none-any.whl.metadata (4.3 kB)
+Collecting django-extensions==3.2.3 (from -r backend/requirements.txt (line 8))
+  Using cached django_extensions-3.2.3-py3-none-any.whl.metadata (6.3 kB)
+Collecting torch==2.2.0 (from -r backend/requirements.txt (line 11))
+  Using cached torch-2.2.0-cp312-cp312-manylinux1_x86_64.whl.metadata (25 kB)
+Collecting torchvision==0.17.0 (from -r backend/requirements.txt (line 12))
+  Using cached torchvision-0.17.0-cp312-cp312-manylinux1_x86_64.whl.metadata (6.6 kB)
+Collecting torchaudio==2.2.0 (from -r backend/requirements.txt (line 13))
+  Using cached torchaudio-2.2.0-cp312-cp312-manylinux1_x86_64.whl.metadata (6.4 kB)
+Collecting ultralytics==8.0.200 (from -r backend/requirements.txt (line 14))
+  Using cached ultralytics-8.0.200-py3-none-any.whl.metadata (31 kB)
+Collecting opencv-python==4.8.1.78 (from -r backend/requirements.txt (line 15))
+  Using cached opencv_python-4.8.1.78-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (19 kB)
+Collecting librosa==0.10.1 (from -r backend/requirements.txt (line 16))
+  Using cached librosa-0.10.1-py3-none-any.whl.metadata (8.3 kB)
+Collecting tensorflow==2.16.1 (from -r backend/requirements.txt (line 17))
+  Using cached tensorflow-2.16.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.3 kB)
+Collecting scikit-learn==1.3.0 (from -r backend/requirements.txt (line 18))
+  Using cached scikit-learn-1.3.0.tar.gz (7.5 MB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): still running...
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting xgboost==1.7.6 (from -r backend/requirements.txt (line 19))
+  Using cached xgboost-1.7.6-py3-none-manylinux2014_x86_64.whl.metadata (1.9 kB)
+Collecting prophet==1.1.4 (from -r backend/requirements.txt (line 20))
+  Using cached prophet-1.1.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.6 kB)
+Collecting transformers==4.35.2 (from -r backend/requirements.txt (line 21))
+  Using cached transformers-4.35.2-py3-none-any.whl.metadata (123 kB)
+Collecting sentencepiece==0.1.99 (from -r backend/requirements.txt (line 22))
+  Using cached sentencepiece-0.1.99.tar.gz (2.6 MB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting tokenizers==0.15.0 (from -r backend/requirements.txt (line 23))
+  Using cached tokenizers-0.15.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.7 kB)
+Collecting arabert==1.0.1 (from -r backend/requirements.txt (line 24))
+  Using cached arabert-1.0.1-py3-none-any.whl.metadata (16 kB)
+Collecting farasapy==0.0.7 (from -r backend/requirements.txt (line 25))
+  Using cached farasapy-0.0.7-py3-none-any.whl.metadata (8.9 kB)
+Collecting camel-tools==1.3.1 (from -r backend/requirements.txt (line 26))
+  Downloading camel_tools-1.3.1-py3-none-any.whl.metadata (9.5 kB)
+Collecting pyarabic==0.6.15 (from -r backend/requirements.txt (line 27))
+  Downloading PyArabic-0.6.15-py3-none-any.whl.metadata (10 kB)
+Collecting SpeechRecognition==3.10.0 (from -r backend/requirements.txt (line 28))
+  Downloading SpeechRecognition-3.10.0-py2.py3-none-any.whl.metadata (28 kB)
+Collecting pydub==0.25.1 (from -r backend/requirements.txt (line 31))
+  Downloading pydub-0.25.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting audioread==3.0.0 (from -r backend/requirements.txt (line 32))
+  Downloading audioread-3.0.0.tar.gz (377 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [20 lines of output]
+      Traceback (most recent call last):
+        File "/mnt/c/SmartAiCity/safe-smart-city-ai/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+        File "/mnt/c/SmartAiCity/safe-smart-city-ai/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/mnt/c/SmartAiCity/safe-smart-city-ai/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+                 ^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-m5mk0f5s/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 331, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-m5mk0f5s/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+        File "/tmp/pip-build-env-m5mk0f5s/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 512, in run_setup
+          super().run_setup(setup_script=setup_script)
+        File "/tmp/pip-build-env-m5mk0f5s/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+        File "<string>", line 17, in <module>
+      ModuleNotFoundError: No module named 'imp'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'audioread' when getting requirements to build wheel
